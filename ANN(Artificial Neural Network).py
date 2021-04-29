@@ -12,6 +12,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 
 
+
 # In[2]:
 
 
@@ -141,6 +142,7 @@ biases.shape
 
 
 model.compile(loss = "sparse_categorical_crossentropy",optimizer = "sgd",metrics = ["accuracy"])
+
 
 
 # In[22]:
